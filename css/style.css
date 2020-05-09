@@ -1,0 +1,74 @@
+/* цвет основного текста #757575 */
+/* цвет воричного текста #212121 */
+/* третий цвет текста  #FFFFFF */
+/* наведение на текст #2196F3 */
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-color-text: #ffffff;
+  --text-hover-color: #2196f3;
+  --background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+}
+/* общие */
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+header {
+  background-color: #ffffff;
+}
+footer {
+  background-color: #2f303a;
+}
+b {
+  color: var(--white-color-text);
+}
+/* шапка */
+.nav .link {
+  color: var(--secondary-text-color);
+}
+.active-link,
+.nav .link:hover,
+.nav .link:focus,
+.contact-link:focus,
+.contact-link:hover {
+  color: var(--text-hover-color);
+}
+.logo {
+  color: var(--secondary-text-color);
+}
+.logo-web {
+  color: var(--text-hover-color);
+}
+.contact-link {
+  color: var(--primary-text-color);
+}
+/* подвал */
+.logo-footer,
+.address {
+  color: var(--white-color-text);
+}
+.address-link {
+  color: var(--address-text-color);
+}
+.developed {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* main index */
+.section-title {
+  color: var(--secondary-text-color);
+}
+.hero-title,
+.employment-list.link {
+  color: var(--white-color-text);
+}
+.button {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+.button.primary {
+  background-color: var(--text-hover-color);
+  color: var(--white-color-text);
+}
