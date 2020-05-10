@@ -25,6 +25,13 @@ footer {
 b {
   color: var(--white-color-text);
 }
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
 /* шапка */
 .nav .link {
   color: var(--secondary-text-color);
@@ -38,9 +45,11 @@ b {
 }
 .logo {
   color: var(--secondary-text-color);
+  font-family: Raleway, sans-serif;
 }
 .logo-web {
   color: var(--text-hover-color);
+  font-family: Raleway, sans-serif;
 }
 .contact-link {
   color: var(--primary-text-color);
@@ -60,18 +69,41 @@ b {
 .section-title {
   color: var(--secondary-text-color);
 }
+/* герой и занятость */
 .hero-title,
 .employment-list.link {
   color: var(--white-color-text);
 }
+/* спецыалисты компании */
+.section.company-specialists {
+  background-color: var(--background-color);
+}
+
+/* кнопка */
 .button {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
 }
-.button.primary {
+/* для портфолио и для индекс */
+.button.primary,
+.button.filter:focus,
+.button.filter:hover {
   background-color: var(--text-hover-color);
   color: var(--white-color-text);
 }
-.section.company-specialists {
-  background-color: var(--background-color);
+/* кнопка portfolio */
+.button.filter {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+}
+/* main portfolio */
+.job-title {
+  color: var(--secondary-text-color);
+}
+.text-work {
+  color: var(--primary-text-color);
+}
+.hover-text-work {
+  color: var(--white-color-text);
+  background: rgba(33, 150, 243, 0.9);
 }
