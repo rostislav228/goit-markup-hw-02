@@ -150,11 +150,12 @@ a {
   background-color: var(--background-color);
 }
 .section-title.specialist {
+  color: var(--secondary-text-color);
   font-weight: 500;
 }
 .specialist {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 .specialist.name {
   font-weight: 400;
